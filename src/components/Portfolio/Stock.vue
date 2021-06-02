@@ -13,7 +13,6 @@
             type="number"
             class="form-control danger"
             placeholder="Quantity"
-            v-model="quantity"
           />
         </div>
         <div class="pull-right">
