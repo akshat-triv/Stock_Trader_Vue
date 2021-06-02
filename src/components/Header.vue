@@ -2,16 +2,18 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <div class="navbar-brand">Stock Trader</div>
+        <router-link to="/" tag="div" class="navbar-brand"
+          >Stock Trader
+        </router-link>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li>
+          <router-link to="/portfolio" active-class="active" tag="li">
             <a>Portfolio</a>
-          </li>
-          <li>
+          </router-link>
+          <router-link to="/stocks" active-class="active" tag="li">
             <a>Stocks</a>
-          </li>
+          </router-link>
         </ul>
         <strong class="navbar-text navbar-right">Funds: $10000</strong>
         <ul class="nav navbar-nav navbar-right">
