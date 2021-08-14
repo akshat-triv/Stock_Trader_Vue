@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <router-link to="/" tag="div" class="navbar-brand"
-          >Stock Trader
+          >Stock Traders
         </router-link>
       </div>
       <div class="collapse navbar-collapse">
